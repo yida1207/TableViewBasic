@@ -13,6 +13,9 @@
 		155F0D3B251A1547004C39A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155F0D39251A1547004C39A9 /* Main.storyboard */; };
 		155F0D3D251A154D004C39A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155F0D3C251A154D004C39A9 /* Assets.xcassets */; };
 		155F0D40251A154D004C39A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 155F0D3E251A154D004C39A9 /* LaunchScreen.storyboard */; };
+		155F0D48251A16B8004C39A9 /* HebeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F0D47251A16B8004C39A9 /* HebeTableViewController.swift */; };
+		155F0D4A251A16D0004C39A9 /* Hebe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F0D49251A16D0004C39A9 /* Hebe.swift */; };
+		155F0D4C251A38CA004C39A9 /* HebeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155F0D4B251A38CA004C39A9 /* HebeDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		155F0D3C251A154D004C39A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		155F0D3F251A154D004C39A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		155F0D41251A154D004C39A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155F0D47251A16B8004C39A9 /* HebeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebeTableViewController.swift; sourceTree = "<group>"; };
+		155F0D49251A16D0004C39A9 /* Hebe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hebe.swift; sourceTree = "<group>"; };
+		155F0D4B251A38CA004C39A9 /* HebeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HebeDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				155F0D35251A1547004C39A9 /* SceneDelegate.swift */,
 				155F0D37251A1547004C39A9 /* ViewController.swift */,
 				155F0D39251A1547004C39A9 /* Main.storyboard */,
+				155F0D47251A16B8004C39A9 /* HebeTableViewController.swift */,
+				155F0D4B251A38CA004C39A9 /* HebeDetailViewController.swift */,
+				155F0D49251A16D0004C39A9 /* Hebe.swift */,
 				155F0D3C251A154D004C39A9 /* Assets.xcassets */,
 				155F0D3E251A154D004C39A9 /* LaunchScreen.storyboard */,
 				155F0D41251A154D004C39A9 /* Info.plist */,
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				155F0D38251A1547004C39A9 /* ViewController.swift in Sources */,
+				155F0D4A251A16D0004C39A9 /* Hebe.swift in Sources */,
 				155F0D34251A1547004C39A9 /* AppDelegate.swift in Sources */,
 				155F0D36251A1547004C39A9 /* SceneDelegate.swift in Sources */,
+				155F0D48251A16B8004C39A9 /* HebeTableViewController.swift in Sources */,
+				155F0D4C251A38CA004C39A9 /* HebeDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
